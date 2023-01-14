@@ -1,0 +1,1 @@
+print(len({a % 42 for a in [int(input()) for _ in range(10)]}))
