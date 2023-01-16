@@ -1,5 +1,5 @@
 def res(a):
-    mean = sum(a)/len(a)
+    mean = sum(a) / len(a)
     return round(len([i for i in a if i > mean]) / len(a) * 100, 3)
 
 
