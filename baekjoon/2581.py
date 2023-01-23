@@ -9,4 +9,3 @@ def is_prime(n):
 
 d = [v for v in (i for i in range(*[int(input()), int(input()) + 1])) if is_prime(v) is True]
 print(-1) if bool(d) is False else print(sum(d), min(d), sep='\n')
-# print(-1 if bool(d) is False else sum(d), min(d), sep='\n')  # runtime error
