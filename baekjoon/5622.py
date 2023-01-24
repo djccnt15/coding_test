@@ -1,3 +1,2 @@
 d = ['ABC', 'DEF', 'GHI', 'JKL', 'MNO', 'PQRS', 'TUV', 'WXYZ']
-s = input()
-print(sum(d.index(b) + 3 for a in s for b in d if b.find(a) >= 0))
+print(sum(d.index(b) + 3 for a in input() for b in d if b.find(a) >= 0))

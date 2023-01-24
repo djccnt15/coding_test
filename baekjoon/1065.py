@@ -5,4 +5,4 @@ def han(n):
         else False
 
 
-print(sum([han(i) for i in range(int(input()) + 1)]))
+print(sum(han(i) for i in range(int(input()) + 1)))
