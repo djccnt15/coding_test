@@ -14,4 +14,4 @@ c = {j for i in range(2, int(n ** 0.5) + 1) for j in range(i * 2, n + i, i)}
 
 
 # a, b = (int(x) for x in (input().split()))
-# [print(v) for v in (i for i in range(a, b + 1)) if is_prime(v) is True]
+# [print(v) for v in (i for i in range(a, b + 1)) if is_prime(v)]

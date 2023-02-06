@@ -7,5 +7,5 @@ def is_prime(n):
     return True
 
 
-d = [v for v in (i for i in range(*[int(input()), int(input()) + 1])) if is_prime(v) is True]
-print(-1) if bool(d) is False else print(sum(d), min(d), sep='\n')
+d = [v for v in (i for i in range(*[int(input()), int(input()) + 1])) if is_prime(v)]
+print(sum(d), min(d), sep='\n') if d else print(-1)
