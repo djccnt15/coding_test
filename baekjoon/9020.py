@@ -44,9 +44,8 @@ for _ in range(int(input())):
 #     return [v for v in d if v not in c]
 
 
-# def res():
+# for _ in range(int(input())):
 #     n = int(input())
 #     l = list(combinations_with_replacement(prime(n), 2))
-#     [print(x, sep=' ') for x in [l[i] for i, x in enumerate(l) if sum(x) == n][-1]]
-
-# [res() for _ in range(int(input()))]
+#     for x in [l[i] for i, x in enumerate(l) if sum(x) == n][-1]:
+#         print(x, sep=' ')

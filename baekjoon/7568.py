@@ -4,7 +4,8 @@ def comp(a, b):
 
 n = int(input())
 p = [[int(x) for x in input().split()] for _ in range(n)]
-[print(x + 1, end=' ') for x in [(sum(comp(p[i], p[j]) for j in range(n) if i != j)) for i in range(n)]]
+for x in [(sum(comp(p[i], p[j]) for j in range(n) if i != j)) for i in range(n)]:
+    print(x + 1, end=' ')
 
 
 # p = [[int(x) for x in input().split()] for _ in range(int(input()))]
