@@ -6,4 +6,4 @@ for _ in range(int(input())):
     c, r = divmod(r, 10)
     a.append(c)
     a.extend(divmod(r, 5))
-    print(' '.join([str(v) for v in a]))
+    print(*[str(v) for v in a])
